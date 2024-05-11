@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.input {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 250px;
+    background: #DBE4F5;
+    width: 90%;
+}
+
+p {
+    background: #DBE4F5;
+    width: 100%;
+    padding: 10px 0 10px 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+textarea {
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background: rgba(162, 217, 255, 0.5);
+    padding: 5px 10px;
+    width: 95%;
+    max-height: 250px;
+    resize: none;
+    scrollbar-width: none;
+    font-size: 20px;
+    font-family: Sans-Serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+textarea::-webkit-scrollbar {
+    display: none;
+}
+
+textarea::placeholder {
+    color: #000;
+    opacity: 0.5;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#kirim {
+    color: #DBE4F5;
+    height: 40px;
+    width: 90%;
+    margin: 20px 0 0 0;
+    background: #000000;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
