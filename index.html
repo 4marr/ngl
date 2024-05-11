@@ -32,9 +32,13 @@
                 <h2>Login Here</h2>
                 <input type="text" name="Username" id="username" value="" placeholder="input your username.." oninput="getValue()" />
                 <input type="password" name="password" id="password" value="" placeholder="input your password.." oninput="getValue()" />
+                <div class="mes">
+                    <marquee scrollamount="5">
                         <p id="message">
                             Forgot the username & password? Chat owner
                         </p>
+                        </marquee>
+                        </div>
                 <div class="output">
                     <button type="submit" onclick="checkPw()" id="butt" class="byut">Login</button>
                 </div>
@@ -63,7 +67,7 @@
 
     <!--Content starts-->
     <div class="content flex">
-        <p>
+        <p class="pFoot">
             Made with love | All right reserved by ar.
         </p>
     </div>
