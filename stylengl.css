@@ -47,6 +47,9 @@ p {
 
 textarea {
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 20px;
     outline: none;
     background: rgba(162, 217, 255, 0.5);
