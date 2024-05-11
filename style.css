@@ -206,8 +206,12 @@ label {
 }
 
 #message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
     color: #000000;
-    margin: 2px;
+    margin: 2px 0;
     font-size: 10px;
 }
 
@@ -217,6 +221,10 @@ label {
     border-radius: 20px;
     background: #DBE4F5;
     margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .log {
