@@ -209,11 +209,11 @@ label {
     color: #333333;
     font-size: 10px;
     letter-spacing: 1px;
-    margin: 4px 0 1px 0;
+    padding: 4px 0 1px 0;
 }
 
 .mes{
-    width: 100%;
+    width: 98%;
     background: #FFFFFF;
     border-radius: 20px;
     height: 100%;
