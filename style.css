@@ -210,22 +210,8 @@ label {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2px;
-    color: #000000;
+    color: #DBE4F5;
     font-size: 10px;
-}
-
-.mess {
-    width: 100%;
-    height: 20px;
-    overflow: hidden;
-    border-radius: 20px;
-    background: #DBE4F5;
-    margin: 5px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .log {
