@@ -206,10 +206,6 @@ label {
 }
 
 #message {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2px;
     color: #000000;
     margin: 2px;
     font-size: 10px;
