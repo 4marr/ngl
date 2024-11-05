@@ -4,7 +4,7 @@ function checkPw() {
     var mess = document.getElementById("message");
     var ch = document.getElementById("butt");
 
-    if (user === "admin" && pass === "234") {
+    if (user === "admins" && pass === "234") {
         mess.innerHTML = ""
         mess.innerHTML = "Congrats! The username and password you entered are correct"
         window.open("ngl.html")
